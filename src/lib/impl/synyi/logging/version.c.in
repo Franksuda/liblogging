@@ -1,0 +1,7 @@
+#cmakedefine VER "@VER@"
+
+#ifndef VER
+#define VER "1.0.0"
+#endif
+
+const char *VERSION=VER;
