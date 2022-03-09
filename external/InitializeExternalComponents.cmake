@@ -39,7 +39,7 @@ endif()
 # nlohmann_json
 FetchContent_Declare(json
   GIT_REPOSITORY https://github.com/ArthurSonzogni/nlohmann_json_cmake_fetchcontent
-  GIT_TAG v3.9.1)
+  GIT_TAG master)
 
 FetchContent_GetProperties(json)
 if(NOT json_POPULATED)
@@ -50,7 +50,7 @@ endif()
 # fmt
 FetchContent_Declare(fmt
   GIT_REPOSITORY https://github.com/fmtlib/fmt.git
-  GIT_TAG 7.0.3)
+  GIT_TAG master)
 
 FetchContent_GetProperties(fmt)
 if(NOT fmt_POPULATED)
@@ -63,7 +63,7 @@ set(SPDLOG_FMT_EXTERNAL ON CACHE BOOL "Use external fmt library instead of bundl
 
 FetchContent_Declare(spdlog
   GIT_REPOSITORY https://github.com/gabime/spdlog.git
-  GIT_TAG v1.8.1)
+  GIT_TAG master)
 
 FetchContent_GetProperties(spdlog)
 if(NOT spdlog_POPULATED)
@@ -74,7 +74,7 @@ endif()
 # utfcpp
 FetchContent_Declare(utfcpp
   GIT_REPOSITORY https://github.com/nemtrif/utfcpp.git
-  GIT_TAG v3.2)
+  GIT_TAG master)
 
 FetchContent_GetProperties(utfcpp)
 if(NOT utfcpp_POPULATED)
@@ -84,7 +84,7 @@ endif()
 
 FetchContent_Declare(cpp_httplib
   GIT_REPOSITORY https://github.com/yhirose/cpp-httplib.git
-  GIT_TAG v0.8.8)
+  GIT_TAG master)
 
 FetchContent_GetProperties(cpp_httplib)
 if(NOT cpp_httplib_POPULATED)
@@ -100,7 +100,7 @@ set(URIPARSER_ENABLE_INSTALL OFF CACHE BOOL "URIPARSER_BUILD_TOOLS" FORCE)
 
 FetchContent_Declare(uriparser
   GIT_REPOSITORY https://github.com/uriparser/uriparser.git
-  GIT_TAG uriparser-0.9.5)
+  GIT_TAG master)
 
 FetchContent_GetProperties(uriparser)
 if(NOT uriparser_POPULATED)
