@@ -59,8 +59,6 @@ if(NOT fmt_POPULATED)
 endif()
 
 # spdlog
-set(SPDLOG_FMT_EXTERNAL ON CACHE BOOL "Use external fmt library instead of bundled" FORCE)
-
 FetchContent_Declare(spdlog
   GIT_REPOSITORY https://github.com/gabime/spdlog.git
   GIT_TAG master)
